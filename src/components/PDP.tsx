@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface IPDPProps {
+export interface IPDPProps {
     pname: string;
     desc?: string;
     imgURL: string;
