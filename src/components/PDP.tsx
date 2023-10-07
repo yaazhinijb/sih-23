@@ -24,13 +24,13 @@ function PDP({ pId = "0", pname = "Unbranded Single Stage oxygen gas regulators"
                         <div className="flex flex-col justify-center">
                             <h1 className="text-2xl font-bold">{pname}</h1>
                             <h2 className="text-xl font-semibold text-gray-500">{desc}</h2>
-                            <div className="flex flex-row w-1/5 py-2 px-3 bg-green-600 rounded-lg justify-between mt-4">
-                                <p className="text-sm font-bold text-white  ">{ratings === "" ? "3.1 - 3.5" : ratings}</p>
+                            <div className="flex flex-row w-2/5 py-2 px-3 bg-green-600 rounded-lg justify-center mt-4">
+                                <p className="text-sm font-bold text-white mr-2">{ratings === "" ? "3.1 - 3.5" : ratings}</p>
                                 <img src="https://cdn-icons-png.flaticon.com/128/3334/3334338.png" alt="star" width="20px" />
                             </div>
                             <div className="flex flex-row my-5">
-                                <p className="text-4xl font-semibold mr-5">Rs. {price}</p>
-                                <p className="text-xl font-bold text-black py-2 px-3 bg-yellow-400 rounded-lg">{offer}% OFF</p>
+                                <p className="text-4xl font-semibold mr-5">{price}</p>
+                                <p className="text-xl font-bold text-black py-2 px-3 bg-yellow-400 rounded-lg">{offer} OFF</p>
                             </div>
                         </div>
                     </div>

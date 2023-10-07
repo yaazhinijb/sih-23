@@ -1,0 +1,7 @@
+[
+    { "label": "Amazon", "value": 7899.00, "backgroundColor": "red"},
+    { "label": "Flipkart", "value": 7699.00, "backgroundColor": "orange"},
+    { "label": "EBay", "value": 7493.01, "backgroundColor": "yellow" },
+    { "label": "Reliance Digital", "value": 7398, "backgroundColor": "blue" },
+    { "label": "GeM", "value": 7188, "backgroundColor": "green" }
+]
